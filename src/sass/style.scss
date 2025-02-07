@@ -1,30 +1,15 @@
 @use "sass:meta";
 
 @include meta.load-css('base/variables');
-
-:is(h1, h2, h3, h4, h5, figure, p, ol, ul) {
-    margin: 0;
-}
-
-ol[role="list"],
-ul[role="list"] {
-    list-style: none;
-    padding-inline: 0;
-}
-
-:is(h1, h2, h3, h4, h5) {
-    font-size: inherit;
-    font-weight: inherit;
-}
+@include meta.load-css('blocks/promo');
+@include meta.load-css('blocks/header');
+@include meta.load-css('blocks/buttons');
 
 * {
-    padding: 0;
-    margin: 0;
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
 
-* {
-    padding: 0;
-    margin: 0;
-    font-family: 'Museo Sans Cyrl', sans-serif;
+.container {
+    max-width: 950px;
+    margin: 0 auto;
 }
