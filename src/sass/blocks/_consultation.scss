@@ -1,0 +1,22 @@
+@use "base/variables";
+
+.consultation {
+    min-height: 680px;
+    background: url('../img/bg2.png') center center / cover no-repeat;
+    padding: 100px 0 108px 0;
+
+    h2 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 54px;
+        text-transform: uppercase;
+        color: variables.$color-white;
+    }
+
+    &__text {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px; 
+        color: variables.$color-white;
+    }
+}

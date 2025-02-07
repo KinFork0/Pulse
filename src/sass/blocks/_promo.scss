@@ -1,5 +1,123 @@
+@use "base/variables";
+
 .promo {
     min-height: 650px;
     padding: 21px 0 93px 0;
-    background: url(../../img/bg.png) center center / cover no-repeat;
+    background: url(../img/bg.png) center center / cover no-repeat;
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 91px;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 42px;
+        text-transform: uppercase;
+        color: variables.$color-white;
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: variables.$color-white;
+    }
+
+    &__items {
+        margin-top: 60px;
+        display: flex;
+        width: 424px;
+        justify-content: space-between;
+    }
+
+    &__icon {
+        margin-top: 20px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 14px;
+        color: variables.$color-white;
+        width: 105px;
+
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    }
+
+    &__catalog {
+        font-weight: 500;
+        font-size: 16px;
+        color: variables.$color-white;
+
+        a {
+            text-transform: uppercase;
+            text-decoration: underline;
+            text-decoration-skip-ink: none;
+            color: variables.$color-white;
+        }
+    }
+
+    @media screen and (max-width: 1000px) {
+        & {
+            padding: 0 20px;
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        & {
+            padding: 0 10px;
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+        & {
+            padding: 0 5px;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        & {
+            padding: 0 2px;
+
+            &__wrapper {
+                h1 {
+                    font-size: 36px;
+                }
+
+                h2 {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        & {
+            min-height: 500px;
+
+            &__wrapper {
+                margin-top: 50px;
+
+                h1 {
+                    font-size: 28px;
+                }
+
+                h2 {
+                    font-size: 16px;
+                }
+            }
+
+            &__items {
+                margin-top: 30px;
+                width: 340px;
+            }
+        }
+    }
 }

@@ -4,6 +4,8 @@
 @include meta.load-css('blocks/promo');
 @include meta.load-css('blocks/header');
 @include meta.load-css('blocks/buttons');
+@include meta.load-css('blocks/advantages');
+@include meta.load-css('blocks/consultation');
 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;

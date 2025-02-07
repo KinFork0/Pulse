@@ -10,4 +10,31 @@
     font-size: 12px;
     text-transform: uppercase;
     color: variables.$color-white;
+
+    &__promo {
+        width: 303px;
+        height: 54px;
+        font-size: 16px;
+        margin-top: 75px;
+    }
+
+    @media screen and (max-width: 600px) {
+        & {
+            width: 125px;
+            height: 30px;
+
+            &__promo {
+                width: 303px;
+                height: 54px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        & {
+            &__promo {
+                margin-top: 50px;
+            }
+        }
+    }
 }

@@ -1,0 +1,49 @@
+@use "base/variables";
+
+.advantages {
+    background: variables.$color-background-color;
+    padding: 63px 0 65px 0;
+    min-height: 473px;
+
+    h2 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        color: variables.$color-light-black;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        min-height: 245px;
+        margin-top: 60px;
+    }
+
+    &__items {
+        width: 269px;
+
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        h3 {
+            font-weight: 700;
+            font-size: 18px;
+            text-align: center;
+            color: variables.$color-light-black;
+            margin-top: 35px;
+        }
+
+        div {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 18px; 
+            text-align: center;
+            color: variables.$color-light-black;
+        }
+    }
+}
