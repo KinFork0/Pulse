@@ -6,6 +6,9 @@
 @include meta.load-css('blocks/buttons');
 @include meta.load-css('blocks/advantages');
 @include meta.load-css('blocks/consultation');
+@include meta.load-css('blocks/titles');
+@include meta.load-css('blocks/carousel');
+@include meta.load-css('blocks/catalog');
 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
@@ -14,4 +17,28 @@
 .container {
     max-width: 950px;
     margin: 0 auto;
+
+    @media screen and (max-width: 1000px) {
+        & {
+            padding: 0 20px;
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        & {
+            padding: 0 10px;
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+        & {
+            padding: 0 5px;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        & {
+            padding: 0 2px;
+        }
+    }
 }

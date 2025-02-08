@@ -5,18 +5,45 @@
     background: url('../img/bg2.png') center center / cover no-repeat;
     padding: 100px 0 108px 0;
 
-    h2 {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 54px;
-        text-transform: uppercase;
-        color: variables.$color-white;
-    }
-
     &__text {
         font-weight: 500;
         font-size: 20px;
-        line-height: 30px; 
+        line-height: 30px;
         color: variables.$color-white;
+    }
+
+    .form {
+        margin-top: 36px;
+
+        input {
+            display: block;
+            margin-top: 11px;
+            width: 303px;
+            height: 54px;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 66px;
+            color: variables.$color-grey;
+            border: none;
+            border-radius: 5px;
+            padding: 0 20px;
+        }
+    }
+
+    @media screen and (max-width: 800px){
+        & {
+            &__text {
+                line-height: 26px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 500px){
+        & {
+            &__text {
+                font-size: 18px;
+                line-height: 22px;
+            }
+        }
     }
 }

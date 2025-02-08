@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pulse</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -41,34 +42,37 @@
                             Ответим на все вопросы
                         </div>
                     </div>
-                    <button class="btn btn__promo">заказать консультацию</button>
+                    <button class="btn btn__main">заказать консультацию</button>
                     <div class="promo__catalog">или <a href="#">перейти в каталог</a></div>
                 </div>
             </div>
         </section>
         <section class="advantages">
             <div class="container">
-                <h2>наши преимущества</h2>
+                <h2 class="title">наши преимущества</h2>
                 <div class="advantages__wrapper">
                     <div class="advantages__items">
                         <img src="icons/advantages/cup.png" alt="cup">
                         <h3>Делимся опытом</h3>
                         <div>
-                            Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!
+                            Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны,
+                            переплыли Босфор, готовятся к соревнованиям по триатлону!
                         </div>
                     </div>
                     <div class="advantages__items">
                         <img src="icons/advantages/heart.png" alt="heart">
                         <h3>Заботимся о здоровье</h3>
                         <div>
-                            Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
+                            Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в
+                            радость Вам и Вашим близким!
                         </div>
                     </div>
                     <div class="advantages__items">
                         <img src="icons/advantages/shoe.png" alt="shoe">
                         <h3>Учим бегать</h3>
                         <div>
-                            Помогаем с обучением правильной технике бега! Дружим с крупнейшей школой бега в России - <span>i love running</span>.
+                            Помогаем с обучением правильной технике бега! Дружим с крупнейшей школой бега в России -
+                            <span>i love running</span>.
                         </div>
                     </div>
                 </div>
@@ -76,12 +80,61 @@
         </section>
         <section class="consultation">
             <div class="container">
-                <h2>Получите бесплатную консультацию <br> по подбору пульсометра </h2>
-                <div class="consultation__text">Просто заполните форму заявки <br> и мы перезвоним вам в течении 10 минут</div>
+                <h2 class="title title_left">Получите бесплатную консультацию <br> по подбору пульсометра </h2>
+                <div class="consultation__text">Просто заполните форму заявки <br> и мы перезвоним вам в течении 10
+                    минут</div>
+                <form class="form" action="#">
+                    <input name="name" required placeholder="Ваше имя" type="text">
+                    <input name="phone" required placeholder="Ваш телефон" type="number">
+                    <input name="email" required placeholder="Ваш E-mail" type="email">
+                    <button class="btn btn__main btn__consultation">заказать консультацию</button>
+                </form>
+            </div>
+        </section>
+        <section class="carousel">
+            <div class="container">
+                <div class="carousel__wrapper">
+                    <div>
+                        <img src="img/slick/slick_1.png" alt="slick_1">
+                    </div>
+                    <div>
+                        <img src="img/slick/slick_2.png" alt="slick_2">
+                    </div>
+                    <div>
+                        <img src="img/slick/slick_3.png" alt="slick_3">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="catalog">
+            <div class="container">
+                <h2 class="title title__catalog">Каталог пульсометров</h2>
+                <nav>
+                    <ul class="catalog__tabs">
+                        <li class="catalog__tab"></li>
+                        <li class="catalog__tab"></li>
+                        <li class="catalog__tab"></li>
+                    </ul>
+                </nav>
+                <div class="catalog__content">
+                    
+                </div>
+                <div class="catalog__content">
+                    
+                </div>
+                <div class="catalog__content">
+                    
+                </div>
             </div>
         </section>
 
     </main>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+
 </body>
 
 </html>

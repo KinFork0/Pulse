@@ -48,6 +48,9 @@
             display: block;
             margin: 0 auto;
             margin-bottom: 20px;
+            width: 45px;
+            min-height: 45px;
+            object-fit: cover;
         }
     }
 
@@ -64,28 +67,9 @@
         }
     }
 
-    @media screen and (max-width: 1000px) {
-        & {
-            padding: 0 20px;
-        }
-    }
-
-    @media screen and (max-width: 800px) {
-        & {
-            padding: 0 10px;
-        }
-    }
-
-    @media screen and (max-width: 700px) {
-        & {
-            padding: 0 5px;
-        }
-    }
-
+    
     @media screen and (max-width: 600px) {
         & {
-            padding: 0 2px;
-
             &__wrapper {
                 h1 {
                     font-size: 36px;

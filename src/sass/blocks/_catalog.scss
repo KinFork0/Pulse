@@ -1,0 +1,11 @@
+@use "base/variables";
+
+.catalog {
+    min-height: 1103px;
+    padding-bottom: 79px;
+
+    &__tabs {
+        margin-top: 46px;
+        list-style: none;
+    }
+}
