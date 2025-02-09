@@ -9,6 +9,7 @@
 @include meta.load-css('blocks/titles');
 @include meta.load-css('blocks/carousel');
 @include meta.load-css('blocks/catalog');
+@include meta.load-css('blocks/reviews');
 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;

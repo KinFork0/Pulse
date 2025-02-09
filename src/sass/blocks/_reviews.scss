@@ -1,0 +1,54 @@
+@use "base/variables";
+
+.reviews {
+    min-height: 920px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+
+    &__wrapper {
+        margin-top: 60px;
+        display: flex;
+        width: 910px;
+        height: 278px;
+
+        img {
+            order: 1;
+            width: 169px;
+            height: 169px;
+            object-fit: cover;
+            margin-right: 60px;
+        }
+    }
+
+    &__items {
+        order: 2;
+    }
+
+    &__name {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        color: variables.$color-light-black;
+    }
+
+    &__marathon {
+        font-weight: 500;
+        font-size: 14px;
+        color: variables.$color-light-black-grey_2;
+    }
+
+    &__text {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: variables.$color-light-black;
+    }
+
+    &__new {
+        line-height: 10px;
+    }
+
+    &__thank {
+        margin-top: 10px;
+    }
+}

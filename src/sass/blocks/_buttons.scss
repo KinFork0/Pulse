@@ -10,6 +10,7 @@
     font-size: 12px;
     text-transform: uppercase;
     color: variables.$color-white;
+    padding: 5px;
 
     &__main {
         width: 300px;
@@ -22,6 +23,12 @@
         margin-top: 17px;
         width: 303px;
         height: 58px;
+    }
+
+    &__catalog-item {
+        width: 135px;
+        height: 44px;
+        font-size: 14px;
     }
 
     @media screen and (max-width: 600px) {
