@@ -10,18 +10,14 @@
         display: flex;
         width: 910px;
         height: 278px;
+        padding-right: 20px;
 
         img {
-            order: 1;
             width: 169px;
             height: 169px;
             object-fit: cover;
             margin-right: 60px;
         }
-    }
-
-    &__items {
-        order: 2;
     }
 
     &__name {

@@ -7,8 +7,8 @@ $(document).ready(function () {
             {
                 breakpoint: 992,
                 settings: {
-                    dots: false,
-                    arrows: true
+                    dots: true,
+                    arrows: false
                 }
             }
         ]
