@@ -11,6 +11,7 @@
 @include meta.load-css('blocks/catalog');
 @include meta.load-css('blocks/reviews');
 @include meta.load-css('blocks/footer');
+@include meta.load-css('blocks/modal');
 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;

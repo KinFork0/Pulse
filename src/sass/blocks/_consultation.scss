@@ -12,24 +12,6 @@
         color: variables.$color-white;
     }
 
-    .form {
-        margin-top: 36px;
-
-        input {
-            display: block;
-            margin-top: 11px;
-            width: 303px;
-            height: 54px;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 66px;
-            color: variables.$color-grey;
-            border: none;
-            border-radius: 5px;
-            padding: 0 20px;
-        }
-    }
-
     @media screen and (max-width: 800px){
         & {
             &__text {
@@ -45,5 +27,27 @@
                 line-height: 22px;
             }
         }
+    }
+}
+
+.form {
+    margin-top: 36px;
+
+    input {
+        display: block;
+        margin-top: 11px;
+        width: 303px;
+        height: 54px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 66px;
+        color: variables.$color-grey;
+        border: none;
+        border-radius: 5px;
+        padding: 0 20px;
+    }
+
+    &_mt26 {
+        margin-top: 26px;
     }
 }
