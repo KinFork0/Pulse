@@ -47,4 +47,10 @@
             }
         }
     }
+
+    &__icon {
+        &_animated {
+            animation: heartbeat 1.5s ease infinite;
+        }
+    }
 }

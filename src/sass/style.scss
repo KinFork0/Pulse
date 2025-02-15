@@ -1,6 +1,7 @@
 @use "sass:meta";
 
 @include meta.load-css('base/variables');
+@include meta.load-css('base/animations');
 @include meta.load-css('blocks/promo');
 @include meta.load-css('blocks/header');
 @include meta.load-css('blocks/buttons');
